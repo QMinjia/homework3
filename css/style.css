@@ -86,8 +86,8 @@ tbody tr:hover{
 	background-color: rgba(126,8,48,0.25);
 }
 
-*{
-	
+*:focus{
+	border: 3px dash #417243;
 }
 
 thead tr:first-child th:first-child{}
