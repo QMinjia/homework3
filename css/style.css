@@ -75,9 +75,15 @@ tr{
 	
 }
 
-tr:hover
-{ 
-background-color: rgba(126,8,48,0.25);
+tbody tr:nth-child(odd) {
+  background-color: #D1D1D1;
+}
+tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+tbody tr:hover{ 
+	background-color: rgba(126,8,48,0.25);
 }
 
 *{
