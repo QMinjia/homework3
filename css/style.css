@@ -47,27 +47,41 @@ a{
 
 table{
     border: 2px solid #000000;
+	margin: auto;
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
+  min-width: 125px;
+  padding: 10px;
+  text-align:center;
+  /* vertical-align: middle; */
+  text-transform:uppercase;
 }
 
 .rowhead{
-
+	padding: 10px;
+	border-top: 2px solid #000000;
 }
 
+
 td{
-  padding: 15px;
+  padding: 10px;
+  border-top: 2px solid #000000;
 }
 
 tr{
+	
+}
 
+tr:hover
+{ 
+background-color: rgba(126,8,48,0.25);
 }
 
 *{
-
+	
 }
 
 thead tr:first-child th:first-child{}
